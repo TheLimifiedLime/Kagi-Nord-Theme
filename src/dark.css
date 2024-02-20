@@ -41,7 +41,6 @@
 }
 
 /* THEME START */
-
 :root {
   /* Body Background */
   --background-color: var(--nord0);
@@ -78,6 +77,22 @@
 
   /* Search Result Item Date Background*/
   --search-result-date-bg: var(--nord1);
+
+  /* Primary Button Background (e.g. Sign Out Button) */
+  --btn-primary-bg: var(--nord8);
+
+  /* Primary Button Background [Hover] */
+  --color-primary_hover: var(--nord9);
+}
+
+/* Search Mode Toggle Icon Background */
+#search_mode_toggle_label > i.oSea {
+  background-color: var(--nord9);
+}
+
+/* Search Mode Toggle Icon Background [Hover] */
+#search_mode_toggle_label > i.oSea:hover {
+  background-color: var(--nord9) !important;
 }
 
 /* Keyboard Shortcuts Modal */
@@ -104,9 +119,13 @@
   background-color: var(--nord8);
 }
 
-/* Search or Assistant Selection Active */
+/* Search Button Border */
+#searchFormSubmitBtn {
+  border-color: var(--nord9);
+}
 
-/* Text Colors */
+/* Search or Assistant Selection Active */
+/* Text/Misc Colors */
 :root {
   /* Search Result Item Title */
   --search-result-title: var(--nord6);
@@ -137,4 +156,31 @@
 
   /* Search Results Infobin Color */
   --inline-header-title: var(--nord7);
+
+  /* Active Tab Underline Color */
+  --nav_n_se_line: var(--nord7);
+
+  /* Division Lines Color */
+  --color-primary-dim_2: var(--nord3);
+
+  /* Assistant Mode Toggle Icon */
+}
+
+/* Search/Assistant Mode Toggle Icon Color */
+#tonav
+  > div
+  > div.serp_nav_start
+  > div.search_mode_box_s
+  > a:nth-child(1)
+  > svg,
+#tonav
+  > div
+  > div.serp_nav_start
+  > div.search_mode_box_s
+  > a.ico_ia._0_ico_ia.mode_4
+  > svg,
+#search_mode_toggle_label > i.oSea,
+#search_mode_toggle_label > i.oSea:hover,
+#search_mode_toggle_label > i.o2rb._0_ico_ia.mode_4 {
+  color: var(--nord4) !important;
 }
