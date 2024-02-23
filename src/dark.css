@@ -83,6 +83,30 @@
 
   /* Primary Button Background [Hover] */
   --color-primary_hover: var(--nord9);
+
+  /* Research Assistant Accent */
+  --kagi-purple: var(--nord15);
+
+  /* Code Assistant Accent */
+  --kagi-orange: var(--nord12);
+
+  /* Chat Assistant Accent */
+  --kagi-graphite-ia: var(--nord13);
+
+  /* Custom Assistant Accent */
+  --kagi-sky-i: var(--nord10);
+
+  /* Images Page Underline */
+  --nav_n_im_line: var(--nord10);
+
+  /* Videos Page Underline */
+  --nav_n_vi_line: var(--nord12);
+
+  /* News & Podcasts Underline */
+  --nav_n_ne_line: var(--nord15);
+
+  /* Maps Page Underline */
+  --nav_n_ma_line: var(--nord14);
 }
 
 /* Search Mode Toggle Icon Background */
@@ -90,8 +114,215 @@
   background-color: var(--nord9);
 }
 
+/* Kagi Assistant Answer Button Background */
+#orbSubmitBtn {
+  background-color: var(--nord8);
+}
+
 /* Search Mode Toggle Icon Background [Hover] */
 #search_mode_toggle_label > i.oSea:hover {
+  background-color: var(--nord9) !important;
+}
+
+/* Keyboard Shortcuts Modal */
+#help_modal {
+  background-color: var(--nord1);
+}
+
+/* Site Info Modal Background */
+#domainInfoModal > div > div.ranked-box-center > div:nth-child(1),
+#domainInfoModal
+  > div
+  > div.ranked-box-center
+  > div.d-info-section.d-info-switch-a {
+  background-color: var(--nord1);
+}
+
+/* Assistant Model Ultimate Only Badge */
+.ia_mode_badge {
+  background-color: var(--nord7);
+  color: var(--nord0);
+}
+
+/* Image Preview Footer Background */
+#PreviewImageModal > div.image-preview-footer._0_SRI {
+  background-color: var(--nord0);
+}
+
+/* Search Button Background */
+#searchFormSubmitBtn {
+  background-color: var(--nord8);
+}
+
+/* Search Button Border */
+#searchFormSubmitBtn {
+  border-color: var(--nord9);
+}
+
+/* Search or Assistant Selection Active */
+/* Text/Misc Colors */
+:root {
+  /* Search Result Item Title */
+  --search-result-title: var(--nord6);
+
+  /* Search Result Item URL */
+  --search-result-url-link: var(--nord6);
+
+  /* Search Result Item Description (uses modified color) */
+  --search-result-content-text: var(--nord4-opacity-70);
+
+  /* Footer Links Color */
+  --color-primary-dim_8: var(--nord4-opacity-70);
+
+  /* "Humanize the Web" */
+  --color-primary-dim_5: var(--nord4-opacity-50);
+
+  /* Primary Navigation Links */
+  --color-primary: var(--nord4);
+
+  /* Navigation Links Exceptions */
+  --page-text-color: var(--nord4);
+
+  /* Control Center Descriptions */
+  --color-primary-dim_6: var(--nord4-opacity-70);
+
+  /* Control Panel White Button Text */
+  --btn-primary-color: var(--nord0);
+
+  /* Search Results Infobin Color */
+  --inline-header-title: var(--nord7);
+
+  /* Active Tab Underline Color */
+  --nav_n_se_line: var(--nord7);
+
+  /* Division Lines Color */
+  --color-primary-dim_2: var(--nord3);
+  /* Assistant Mode Toggle Icon */
+}
+
+/* Search/Assistant Mode Toggle Icon Color */
+#tonav
+  > div
+  > div.serp_nav_start
+  > div.search_mode_box_s
+  > a:nth-child(1)
+  > svg,
+#tonav
+  > div
+  > div.serp_nav_start
+  > div.search_mode_box_s
+  > a.ico_ia._0_ico_ia.mode_4
+  > svg,
+#search_mode_toggle_label > i.oSea,
+#search_mode_toggle_label > i.oSea:hover,
+#search_mode_toggle_label > i.o2rb._0_ico_ia.mode_4 {
+  color: var(--nord4) !important;
+}
+air/* Nord Theme Palette */
+:root {
+  /* Polar Night */
+  --nord0: #2e3440;
+  --nord1: #3b4252;
+  --nord2: #434c5e;
+  --nord3: #4c566a;
+
+  /* Snow Storm */
+  --nord4: #d8dee9;
+  --nord5: #e5e9f0;
+  --nord6: #eceff4;
+
+  /* Frost */
+  --nord7: #8fbcbb;
+  --nord8: #88c0d0;
+  --nord9: #81a1c1;
+  --nord10: #5e81ac;
+
+  /* Aurora */
+  --nord11: #bf616a;
+  --nord12: #d08770;
+  --nord13: #ebcb8b;
+  --nord14: #a3be8c;
+  --nord15: #b48ead;
+}
+
+/* Custom/Modified Colors */
+:root {
+  /*
+        Created due to having to have something less bright than the other footer links
+        This is an issue with the "Humanize the Web" descriptions.
+    */
+  --nord4-opacity-50: #d8dee973;
+
+  /*
+        Created due to none of the white colors in the Nord pallete are dark enough to provide sufficient contrast with each other.
+        This is an issue with link descriptions.
+    */
+  --nord4-opacity-70: #d8dee9ab;
+}
+
+/* THEME START */
+:root {
+  /* Body Background */
+  --background-color: var(--nord0);
+
+  /* Search Bar Background */
+  --color-search-input: var(--nord1);
+
+  /* Header Background */
+  --header-bg: var(--nord1);
+
+  /* Footer Background */
+  --footer-bg: var(--nord0);
+
+  /* Control Center Background */
+  --control-center-bg: var(--nord1);
+
+  /* Search Tab Video Card Background */
+  --inline-widget-bg: var(--nord1);
+
+  /* Related Item Background */
+  --related-item-bg: var(--nord1);
+
+  /* Site Into Popup Footer Background */
+  --site_info_bottom_bg: var(--nord2);
+
+  /* Video Tab Video Item Background */
+  --video-item-bg: var(--nord1);
+
+  /* Kagi Assistant Pre-Chat Infobox*/
+  --ai_chat_buble_a_bg: var(--nord1);
+
+  /* Assitant Document URL Input Form (& possibly more) */
+  --input-bg: var(--nord1);
+
+  /* Search Result Item Date Background*/
+  --search-result-date-bg: var(--nord1);
+
+  /* Primary Button Background (e.g. Sign Out Button) */
+  --btn-primary-bg: var(--nord8);
+
+  /* Primary Button Background [Hover] */
+  --color-primary_hover: var(--nord9);
+}
+
+/* Lens Toggle Active Background */
+.k_ui_toggle_switch {
+  --active-bg-color: var(--nord14);
+}
+
+/* Search Mode Toggle Icon Background */
+#search_mode_toggle_label > i.oSea,
+#tonav > div > div.serp_nav_start > div.search_mode_box_s > a.--active {
+  background-color: var(--nord9);
+}
+
+/* Search Mode Toggle Icon Background [Hover] */
+#search_mode_toggle_label > i.oSea:hover,
+#tonav
+  > div
+  > div.serp_nav_start
+  > div.search_mode_box_s
+  > a:nth-child(1):hover {
   background-color: var(--nord9) !important;
 }
 
@@ -162,8 +393,10 @@
 
   /* Division Lines Color */
   --color-primary-dim_2: var(--nord3);
-
   /* Assistant Mode Toggle Icon */
+
+  /* Keyboard Shortcuts Shortcuts */
+  --kagi-highlight: var(--nord7);
 }
 
 /* Search/Assistant Mode Toggle Icon Color */
@@ -183,4 +416,12 @@
 #search_mode_toggle_label > i.oSea:hover,
 #search_mode_toggle_label > i.o2rb._0_ico_ia.mode_4 {
   color: var(--nord4) !important;
+}
+
+#searchFormSubmitBtn {
+  color: var(--nord0);
+}
+
+:focus-visible {
+  outline-color: var(--nord8);
 }
