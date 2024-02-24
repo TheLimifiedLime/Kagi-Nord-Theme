@@ -205,7 +205,7 @@
 #search_mode_toggle_label > i.o2rb._0_ico_ia.mode_4 {
     color: var(--nord4) !important;
 }
-air/* Nord Theme Palette */
+/* Nord Theme Palette */
 :root {
     /* Polar Night */
     --nord0: #2e3440;
@@ -290,6 +290,34 @@ air/* Nord Theme Palette */
 
     /* Primary Button Background [Hover] */
     --color-primary_hover: var(--nord9);
+    
+    /* Assistant Comparison Table Background */
+    --kagi-accent: var(--nord2);
+    
+    /* Assistant Info Text Color */
+    --color-primary-dim_7: var(--nord4-opacity-75);
+    
+    /* Assistant Info Bottom Border Color */
+    --color-primary-dim_1: var(--nord4-opacity-50);
+    
+    /* Assistant Info Table Cell Separation Border Lines Color */
+    --color-primary-dim-g_2: var(--nord4-opacity-50);
+    
+    
+}
+
+/* Assistant Logo BETA Label Text Color */
+#home-link > i > svg > text > tspan {
+    color: transparent;
+}
+
+/* Search Button Border Color */
+#orbSubmitBtn {
+    border-color: var(--nord7);
+}
+
+#searchBar::placeholder {
+    color: var(--nord4-opacity-50);
 }
 
 /* Lens Toggle Active Background */
