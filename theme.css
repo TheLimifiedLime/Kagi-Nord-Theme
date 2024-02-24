@@ -393,10 +393,28 @@ air/* Nord Theme Palette */
 
   /* Division Lines Color */
   --color-primary-dim_2: var(--nord3);
-  /* Assistant Mode Toggle Icon */
 
   /* Keyboard Shortcuts Shortcuts */
   --kagi-highlight: var(--nord7);
+
+  /* Header Border Color */
+  --header-border: var(--nord3);
+
+  /* Inline Header Color */
+  --inline-header-border: var(--nord4);
+
+  /* Search Clear and Search Bar Search Icon Separator Color */
+  --color-primary-dim_3: var(--nord3);
+}
+
+/* Lens Selection Box Border Color */
+#tonav
+  > div
+  > div.serp_nav_start
+  > div._0_lenses
+  > div
+  > div.k_ui_dropdown_data_list {
+  border-color: var(--nord3);
 }
 
 /* Search/Assistant Mode Toggle Icon Color */
