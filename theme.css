@@ -109,6 +109,8 @@
   /* Footer Links Color */
   --color-primary-dim_8: var(--nord4-opacity-70);
 
+  --color-secondary: var(--nord4-opacity-70);
+
   /* "Humanize the Web" */
   --color-primary-dim_5: var(--nord4-opacity-50);
 
