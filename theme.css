@@ -134,7 +134,9 @@
   --kagi-highlight: var(--nord7);
 
   /* Header Border Color */
-  --header-border: var(--nord4-opacity-50);
+  --header-border: var(--nord4-opacity-70);
+
+  --app-sidebar-item-border: var(--nord4-opacity-70);
 
   /* Inline Header Color */
   --inline-header-border: var(--nord4-opacity-50);
@@ -213,7 +215,8 @@
 #search_mode_toggle_label > i.oSea:hover,
 #search_mode_toggle_label > i.o2rb._0_ico_ia.mode_7 > svg,
 #search_mode_toggle_label > i.o2rb._0_ico_ia.mode_5 > svg,
-#search_mode_toggle_label > i.o2rb._0_ico_ia.mode_6 > svg {
+#search_mode_toggle_label > i.o2rb._0_ico_ia.mode_6 > svg,
+#search_mode_toggle_label > i.o2rb._0_ico_ia.mode_4 > svg {
   color: var(--nord4) !important;
 }
 
@@ -297,4 +300,35 @@ body > div.app-box._0_app-wrapper > div > footer {
 
 :focus-visible {
   outline-color: var(--nord8);
+}
+
+#mm-image > div.img-min-max-sub > button {
+  background-color: var(--nord8);
+  border-color: var(--nord9);
+}
+
+/* Border Colors */
+#tonav
+  > div
+  > div.serp_nav_start
+  > div._0_lenses
+  > div
+  > div.k_ui_dropdown_data_list,
+#tonav
+  > div
+  > div.serp_nav_start
+  > div._0_lenses
+  > div
+  > div.k_ui_dropdown_data_list
+  > div
+  > hr,
+#tonav
+  > div
+  > div.serp_nav_end
+  > div.more_search_dropdown_box
+  > div
+  > div._0_k_ui_dropdown_data_list.k_ui_dropdown_data_list,
+#sidebarNav > div.dropdown.dd_clean.filter-item.--dropdown-open > div,
+#mm-image {
+  border-color: var(--nord4-opacity-70);
 }
