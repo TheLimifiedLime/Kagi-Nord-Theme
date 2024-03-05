@@ -127,6 +127,25 @@
   background-color: var(--nord0);
 }
 
+/* Search/Assistant Mode Toggle Icon Color */
+#tonav
+  > div
+  > div.serp_nav_start
+  > div.search_mode_box_s
+  > a:nth-child(1)
+  > svg,
+#tonav
+  > div
+  > div.serp_nav_start
+  > div.search_mode_box_s
+  > a.ico_ia._0_ico_ia.mode_4
+  > svg,
+#search_mode_toggle_label > i.oSea,
+#search_mode_toggle_label > i.oSea:hover,
+#search_mode_toggle_label > i.o2rb._0_ico_ia.mode_4 {
+  color: var(--nord4) !important;
+}
+
 /* Assistant Logo BETA Label Text Color */
 #home-link > i > svg > text > tspan {
   color: transparent;
@@ -270,25 +289,6 @@ body > div.app-box._0_app-wrapper > div > footer {
   > div
   > div.k_ui_dropdown_data_list {
   border-color: var(--nord3);
-}
-
-/* Search/Assistant Mode Toggle Icon Color */
-#tonav
-  > div
-  > div.serp_nav_start
-  > div.search_mode_box_s
-  > a:nth-child(1)
-  > svg,
-#tonav
-  > div
-  > div.serp_nav_start
-  > div.search_mode_box_s
-  > a.ico_ia._0_ico_ia.mode_4
-  > svg,
-#search_mode_toggle_label > i.oSea,
-#search_mode_toggle_label > i.oSea:hover,
-#search_mode_toggle_label > i.o2rb._0_ico_ia.mode_4 {
-  color: var(--nord4) !important;
 }
 
 #searchFormSubmitBtn {
