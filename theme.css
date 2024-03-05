@@ -238,11 +238,6 @@
   background-color: var(--nord1);
 }
 
-/* Image Preview Footer Background */
-#PreviewImageModal > div.image-preview-footer._0_SRI {
-  background-color: var(--nord0);
-}
-
 /* Search Button Background */
 #searchFormSubmitBtn {
   background-color: var(--nord8);
