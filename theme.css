@@ -208,63 +208,6 @@
   color: var(--nord4) !important;
 }
 
-/* THEME START */
-:root {
-  /* Body Background */
-  --background-color: var(--nord0);
-
-  /* Search Bar Background */
-  --color-search-input: var(--nord1);
-
-  /* Header Background */
-  --header-bg: var(--nord1);
-
-  /* Footer Background */
-  --footer-bg: var(--nord0);
-
-  /* Control Center Background */
-  --control-center-bg: var(--nord1);
-
-  /* Search Tab Video Card Background */
-  --inline-widget-bg: var(--nord1);
-
-  /* Related Item Background */
-  --related-item-bg: var(--nord1);
-
-  /* Site Into Popup Footer Background */
-  --site_info_bottom_bg: var(--nord2);
-
-  /* Video Tab Video Item Background */
-  --video-item-bg: var(--nord1);
-
-  /* Kagi Assistant Pre-Chat Infobox*/
-  --ai_chat_buble_a_bg: var(--nord1);
-
-  /* Assistant Document URL Input Form (& possibly more) */
-  --input-bg: var(--nord1);
-
-  /* Search Result Item Date Background*/
-  --search-result-date-bg: var(--nord1);
-
-  /* Primary Button Background (e.g. Sign Out Button) */
-  --btn-primary-bg: var(--nord8);
-
-  /* Primary Button Background [Hover] */
-  --color-primary_hover: var(--nord9);
-
-  /* Assistant Comparison Table Background */
-  --kagi-accent: var(--nord2);
-
-  /* Assistant Info Text Color */
-  --color-primary-dim_7: var(--nord4-opacity-75);
-
-  /* Assistant Info Bottom Border Color */
-  --color-primary-dim_1: var(--nord4-opacity-50);
-
-  /* Assistant Info Table Cell Separation Border Lines Color */
-  --color-primary-dim-g_2: var(--nord4-opacity-50);
-}
-
 /* Assistant Logo BETA Label Text Color */
 #home-link > i > svg > text > tspan {
   color: transparent;
