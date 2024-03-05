@@ -96,6 +96,9 @@
 
   /* Maps Page Underline */
   --nav_n_ma_line: var(--nord14);
+
+  /* Division Lines Color */
+  --color-primary-dim_2: var(--nord3);
 }
 
 /* Kagi Assistant Answer Button Background */
@@ -122,76 +125,6 @@
 /* Image Preview Footer Background */
 #PreviewImageModal > div.image-preview-footer._0_SRI {
   background-color: var(--nord0);
-}
-
-/* Search Button Background */
-#searchFormSubmitBtn {
-  background-color: var(--nord8);
-}
-
-/* Search Button Border */
-#searchFormSubmitBtn {
-  border-color: var(--nord9);
-}
-
-/* Search or Assistant Selection Active */
-/* Text/Misc Colors */
-:root {
-  /* Search Result Item Title */
-  --search-result-title: var(--nord6);
-
-  /* Search Result Item URL */
-  --search-result-url-link: var(--nord6);
-
-  /* Search Result Item Description (uses modified color) */
-  --search-result-content-text: var(--nord4-opacity-70);
-
-  /* Footer Links Color */
-  --color-primary-dim_8: var(--nord4-opacity-70);
-
-  /* "Humanize the Web" */
-  --color-primary-dim_5: var(--nord4-opacity-50);
-
-  /* Primary Navigation Links */
-  --color-primary: var(--nord4);
-
-  /* Navigation Links Exceptions */
-  --page-text-color: var(--nord4);
-
-  /* Control Center Descriptions */
-  --color-primary-dim_6: var(--nord4-opacity-70);
-
-  /* Control Panel White Button Text */
-  --btn-primary-color: var(--nord0);
-
-  /* Search Results Infobin Color */
-  --inline-header-title: var(--nord7);
-
-  /* Active Tab Underline Color */
-  --nav_n_se_line: var(--nord7);
-
-  /* Division Lines Color */
-  --color-primary-dim_2: var(--nord3);
-  /* Assistant Mode Toggle Icon */
-}
-
-/* Search/Assistant Mode Toggle Icon Color */
-#tonav
-  > div
-  > div.serp_nav_start
-  > div.search_mode_box_s
-  > a:nth-child(1)
-  > svg,
-#tonav
-  > div
-  > div.serp_nav_start
-  > div.search_mode_box_s
-  > a.ico_ia._0_ico_ia.mode_4
-  > svg,
-#search_mode_toggle_label > i.oSea,
-#search_mode_toggle_label > i.oSea:hover,
-#search_mode_toggle_label > i.o2rb._0_ico_ia.mode_4 {
-  color: var(--nord4) !important;
 }
 
 /* Assistant Logo BETA Label Text Color */
