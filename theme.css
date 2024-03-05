@@ -211,8 +211,15 @@
   > svg,
 #search_mode_toggle_label > i.oSea,
 #search_mode_toggle_label > i.oSea:hover,
-#search_mode_toggle_label > i.o2rb._0_ico_ia.mode_4 {
+#search_mode_toggle_label > i.o2rb._0_ico_ia.mode_7 > svg,
+#search_mode_toggle_label > i.o2rb._0_ico_ia.mode_5 > svg,
+#search_mode_toggle_label > i.o2rb._0_ico_ia.mode_6 > svg {
   color: var(--nord4) !important;
+}
+
+/* Search/Assistant Mode Toggle Icon Color*/
+#search_mode_toggle_label > i.o2rb._0_ico_ia.mode_4 > svg {
+  color: var(--nord2);
 }
 
 /* Assistant Logo BETA Label Text Color */
