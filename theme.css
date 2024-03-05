@@ -97,8 +97,77 @@
   /* Maps Page Underline */
   --nav_n_ma_line: var(--nord14);
 
-  /* Division Lines Color */
-  --color-primary-dim_2: var(--nord3);
+  /* Search Result Item Title */
+  --search-result-title: var(--nord6);
+
+  /* Search Result Item URL */
+  --search-result-url-link: var(--nord6);
+
+  /* Search Result Item Description (uses modified color) */
+  --search-result-content-text: var(--nord4-opacity-70);
+
+  /* Footer Links Color */
+  --color-primary-dim_8: var(--nord4-opacity-70);
+
+  /* "Humanize the Web" */
+  --color-primary-dim_5: var(--nord4-opacity-50);
+
+  /* Primary Navigation Links */
+  --color-primary: var(--nord4);
+
+  /* Navigation Links Exceptions */
+  --page-text-color: var(--nord4);
+
+  /* Control Center Descriptions */
+  --color-primary-dim_6: var(--nord4-opacity-70);
+
+  /* Control Panel White Button Text */
+  --btn-primary-color: var(--nord0);
+
+  /* Search Results Infobin Color */
+  --inline-header-title: var(--nord7);
+
+  /* Active Tab Underline Color */
+  --nav_n_se_line: var(--nord7);
+
+  /* Keyboard Shortcuts Shortcuts */
+  --kagi-highlight: var(--nord7);
+
+  /* Header Border Color */
+  --header-border: var(--nord4-opacity-50);
+
+  /* Inline Header Color */
+  --inline-header-border: var(--nord4-opacity-50);
+
+  /* Search Clear and Search Bar Search Icon Separator Color */
+  --color-primary-dim_3: var(--nord3);
+
+  /* Search Result Underline Color */
+  --result-item-title-border: var(--nord4-opacity-50);
+
+  /* Quick Peek Collapse/Expand Arrow */
+  --color-primary-dim_2: var(--nord4-opacity-50);
+
+  /* Wikipedia Result Title */
+  --wiki-title: var(--nord6);
+
+  /* Wikipedia Result Links */
+  --wiki-content-links: var(--nord6);
+
+  /* Interesting Finds/Blast From The Past Links */
+  --color_link: var(--nord8);
+
+  /* Interesting Fings/Blast From The Past Links Data Background */
+  --inline-domain-tag-bg: var(--nord1);
+
+  /* New Search Result Text Color */
+  --search-result-date-new: var(--nord4-opacity-50);
+
+  /* New Search Result Date Background */
+  --search-result-date-new-bg: var(--nord1);
+
+  /* Quick Settings Separator Color */
+  --color-secondary-dim_5: var(--nord4-opacity-50);
 }
 
 /* Kagi Assistant Answer Button Background */
@@ -198,82 +267,6 @@
 /* Search Button Border */
 #searchFormSubmitBtn {
   border-color: var(--nord9);
-}
-
-/* Search or Assistant Selection Active */
-/* Text/Misc Colors */
-:root {
-  /* Search Result Item Title */
-  --search-result-title: var(--nord6);
-
-  /* Search Result Item URL */
-  --search-result-url-link: var(--nord6);
-
-  /* Search Result Item Description (uses modified color) */
-  --search-result-content-text: var(--nord4-opacity-70);
-
-  /* Footer Links Color */
-  --color-primary-dim_8: var(--nord4-opacity-70);
-
-  /* "Humanize the Web" */
-  --color-primary-dim_5: var(--nord4-opacity-50);
-
-  /* Primary Navigation Links */
-  --color-primary: var(--nord4);
-
-  /* Navigation Links Exceptions */
-  --page-text-color: var(--nord4);
-
-  /* Control Center Descriptions */
-  --color-primary-dim_6: var(--nord4-opacity-70);
-
-  /* Control Panel White Button Text */
-  --btn-primary-color: var(--nord0);
-
-  /* Search Results Infobin Color */
-  --inline-header-title: var(--nord7);
-
-  /* Active Tab Underline Color */
-  --nav_n_se_line: var(--nord7);
-
-  /* Keyboard Shortcuts Shortcuts */
-  --kagi-highlight: var(--nord7);
-
-  /* Header Border Color */
-  --header-border: var(--nord4-opacity-50);
-
-  /* Inline Header Color */
-  --inline-header-border: var(--nord4-opacity-50);
-
-  /* Search Clear and Search Bar Search Icon Separator Color */
-  --color-primary-dim_3: var(--nord3);
-
-  /* Search Result Underline Color */
-  --result-item-title-border: var(--nord4-opacity-50);
-
-  /* Quick Peek Collapse/Expand Arrow */
-  --color-primary-dim_2: var(--nord4-opacity-50);
-
-  /* Wikipedia Result Title */
-  --wiki-title: var(--nord6);
-
-  /* Wikipedia Result Links */
-  --wiki-content-links: var(--nord6);
-
-  /* Interesting Finds/Blast From The Past Links */
-  --color_link: var(--nord8);
-
-  /* Interesting Fings/Blast From The Past Links Data Background */
-  --inline-domain-tag-bg: var(--nord1);
-
-  /* New Search Result Text Color */
-  --search-result-date-new: var(--nord4-opacity-50);
-
-  /* New Search Result Date Background */
-  --search-result-date-new-bg: var(--nord1);
-
-  /* Quick Settings Separator Color */
-  --color-secondary-dim_5: var(--nord4-opacity-50);
 }
 
 /* Footer Border Color */
