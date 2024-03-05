@@ -23,20 +23,9 @@
   --nord13: #ebcb8b;
   --nord14: #a3be8c;
   --nord15: #b48ead;
-}
 
-/* Custom/Modified Colors */
-:root {
-  /*
-        Created due to having to have something less bright than the other footer links
-        This is an issue with the "Humanize the Web" descriptions.
-    */
+  /* Custom/Modified Colors */
   --nord4-opacity-50: #d8dee973;
-
-  /*
-        Created due to none of the white colors in the Nord palette are dark enough to provide sufficient contrast with each other.
-        This is an issue with link descriptions.
-    */
   --nord4-opacity-70: #d8dee9ab;
 }
 
