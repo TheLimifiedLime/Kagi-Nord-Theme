@@ -98,11 +98,6 @@
   --nav_n_ma_line: var(--nord14);
 }
 
-/* Search Mode Toggle Icon Background */
-#search_mode_toggle_label > i.oSea {
-  background-color: var(--nord9);
-}
-
 /* Kagi Assistant Answer Button Background */
 #orbSubmitBtn {
   background-color: var(--nord8);
@@ -115,15 +110,6 @@
 
 /* Keyboard Shortcuts Modal */
 #help_modal {
-  background-color: var(--nord1);
-}
-
-/* Site Info Modal Background */
-#domainInfoModal > div > div.ranked-box-center > div:nth-child(1),
-#domainInfoModal
-  > div
-  > div.ranked-box-center
-  > div.d-info-section.d-info-switch-a {
   background-color: var(--nord1);
 }
 
@@ -241,11 +227,6 @@
   > div.search_mode_box_s
   > a:nth-child(1):hover {
   background-color: var(--nord9) !important;
-}
-
-/* Keyboard Shortcuts Modal */
-#help_modal {
-  background-color: var(--nord1);
 }
 
 /* Site Info Modal Background */
